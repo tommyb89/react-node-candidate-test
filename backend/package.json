@@ -1,0 +1,30 @@
+{
+  "name": "bravo-technical-test-backend",
+  "version": "1.2.2",
+  "description": "uk-bravo technical test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "morgan": "^1.9.1"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src/"
+    ],
+    "exec": "npm run start",
+    "delay": 250
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
