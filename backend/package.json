@@ -1,7 +1,7 @@
 {
-  "name": "bravo-technical-test-backend",
+  "name": "react-node-candidate-test-backend",
   "version": "1.2.2",
-  "description": "uk-bravo technical test",
+  "description": "A React and node.js pairing test to complete as part of the interview process for Totaljobs Group",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
