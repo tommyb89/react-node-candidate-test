@@ -1,13 +1,11 @@
 import React from 'react';
 
-import './Button.scss';
+import './Button.css';
 
-const Button = () => {
+export const Button = () => {
 	return (
 		<div className='btn-primary-apply'>
 			<button>Apply</button>
 		</div>
 	);
 };
-
-export default Button;

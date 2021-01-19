@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Title.scss';
+import './Title.css';
 
 
-const Title = ({ title }) => {
+export const Title = ({ title }) => {
 	return (
 		<h1 className="title">{ title }</h1>
 	);
@@ -13,5 +13,3 @@ const Title = ({ title }) => {
 Title.propTypes = {
 	title: PropTypes.string,
 };
-
-export default Title;

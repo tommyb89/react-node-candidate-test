@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
 
 function App() {
 	return (
 		<div className="app">
-			Starting building your new card here..
+			Starting using your new card here..
 		</div>
 	);
 }

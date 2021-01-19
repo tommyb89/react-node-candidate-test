@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Card.scss';
+import './Card.css';
 
-const Card = props => {
+export const Card = props => {
 	return (
 		<div className="job-card">
 		</div>
@@ -21,5 +21,3 @@ Card.propTypes = {
 		logo: PropTypes.string,
 	}),
 };
-
-export default Card;
