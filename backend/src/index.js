@@ -6,7 +6,7 @@ const port = 5002;
 const api = require('./routes');
 const { errorResponse } = require('./middleware/error');
 
-app.use(bodyParser.json({ limit: '5MB' }));
+app.use(express.bodyParser.json({ limit: '5MB' }));
 app.use(require('morgan')('dev'));
 
 app.use('/api', api);
