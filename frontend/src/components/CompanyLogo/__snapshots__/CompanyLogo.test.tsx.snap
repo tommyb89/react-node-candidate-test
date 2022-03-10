@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CompanyLogo component 1`] = `
+<img
+  alt="acme"
+  src="http://host.com/photo.jpg"
+/>
+`;
