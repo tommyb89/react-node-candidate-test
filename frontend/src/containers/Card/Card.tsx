@@ -1,14 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import './Card.css';
+import "./Card.css";
 
-import { } from '../../components'
-import { IJobCard } from '../../interfaces';
+import {
+  Button,
+  CompanyLogo,
+  Description,
+  Details,
+  Title,
+} from "../../components";
+import { IJobCard } from "../../interfaces";
 
 export const Card = (props: IJobCard): JSX.Element => {
-	return (
-		<div className="job-card">
-			Start building your job card here
-		</div>
-	);
+  return (
+    <article className="job-card" key={props.id}>
+      <Title title={props.title} />
+      <CompanyLogo {...props} />
+      <Details {...props} />
+      <Description {...props} />
+
+      <Button />
+    </article>
+  );
 };

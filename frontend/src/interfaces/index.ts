@@ -1,21 +1,23 @@
 export interface IDetails {
-	salary: number;
-	type: string;
-	location: string;
-	company: string;
+  salary: number;
+  type: string;
+  location: string;
+  company: string;
 }
 
 export interface ICompanyLogo {
-	company: string;
-	logo: string;
+  company: string;
+  logo: string;
 }
 
 export interface IDescription {
-	description: string;
+  description: string;
 }
 
 export interface ITitle {
-	title: string;
+  title: string;
 }
 
-export interface IJobCard extends ITitle, IDetails, ICompanyLogo, IDescription {}
+export interface IJobCard extends ITitle, IDetails, ICompanyLogo, IDescription {
+  id: string;
+}

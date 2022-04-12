@@ -1,5 +1,7 @@
-.company-logo {}
+.company-logo {
+  float: right;
+}
 
 .company-logo img {
-  width: 5rem
+  width: 5rem;
 }
